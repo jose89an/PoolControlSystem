@@ -1,0 +1,124 @@
+
+ROM used: 16536 (50%)
+          16536 (50%) including unused fragments
+
+          8 Average locations per line
+          19 Average locations per statement
+
+RAM used: 83 (5%) at main() level
+          139 (9%) worst case
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  299   161  18  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\piscina.c
+  432     0   0  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\18F4520.H
+   28     0   0  C:\Program Files\PICC\drivers\ctype.h
+  318    82   8  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\PCF8583.c
+  187    58   5  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\LCDeasy.c
+   63    22   2  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\1wire.c
+   37    13   1  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\ds1820.c
+   79    24   2  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\kbd2.c
+   34     0   0  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\datos_funciones.c
+  175   124  10  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\feeprom.c
+  474   403  29  E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\interfaz.c
+----- -----
+ 4252  1774 Total
+
+Page ROM  %  RAM  Functions:
+---- --- --- ---  ----------
+0     48   0   1  @delay_ms1
+0     30   0   1  @delay_us1
+0     88   0   3  @I2C_READ_1_31763_31764_8000000
+0     94   0   1  @I2C_WRITE_1_31763_31764_8000000
+0     96   0   0  @const44
+0     72   0   2  PCF8583_write_byte
+0    124   0   2  PCF8583_read_byte
+0     10   0   0  PCF8583_init
+0     32   0   2  bin2bcd
+0     38   0   3  bcd2bin
+0    346   1  10  PCF8583_set_datetime
+0    236   1  10  PCF8583_set_alarmtime
+0    446   1  12  PCF8583_read_datetime
+0     30   0   0  @const99
+0     30   0   1  lcd_send_nibble
+0     64   0   3  lcd_send_byte
+0     74   0   3  lcd_init
+0     34   0   4  lcd_gotoxy
+0     70   0   1  lcd_putc
+0     46   0   1  onewire_reset
+0     62   0   2  onewire_write
+0     72   0   2  onewire_read
+0    150   0  13  ds1820_read
+0     76   0   2  @SITOF
+0    348   1  14  @DIVFF
+0     38   0   0  @const146
+0    168   1   9  kbd_getc
+0   1410   4   4  escribeEeprom
+0   1228   4  10  leeEeprom
+0    302   1   2  menu
+0     44   0   0  @const10332
+0     44   0   0  @const10337
+0     44   0   0  @const10359
+0     44   0   0  @const10365
+0     44   0   0  @const10371
+0     44   0   0  @goto10382
+0     44   0   0  @goto10398
+0   1258   4   8  menuAlarma
+0     42   0   0  @const10410
+0     40   0   3  @DIV88
+0    102   0   2  @PRINTF_U_515
+0     38   0   0  @const10428
+0     42   0   0  @const10445
+0     44   0   0  @const10495
+0     42   0   0  @const10501
+0     42   0   0  @const10506
+0     44   0   0  @goto10572
+0    862   3  10  menuTemperatura
+0     44   0   0  @const10629
+0    244   1  11  @MULFF
+0     62   0   5  @FTOSD
+0    124   0  13  @DIV3232
+0    390   1  13  @PRINTF_L32D_515FPFPF
+0     44   0   0  @const10701
+0     40   0   0  @const10706
+0     56   0   2  @ITOF
+0    620   2  16  @ADDFF
+0    840   3   7  menuCloro
+0     46   0   0  @const10838
+0     42   0   0  @const10875
+0     40   0   0  @const10880
+0    840   3   7  menuTurbidez
+0     46   0   0  @const10959
+0     42   0   0  @const10996
+0    194   1   0  manejo_timer1
+0    118   0  10  @FLT
+0     10   0   0  manejo_ext
+0     10   0   0  manejo_ext1
+0    696   2  16  mostrar_lcd
+0     58   0   0  @const11119
+0     60   0   0  @const11125
+0    470   1   2  mostrar_rs232
+0     72   0   0  @const11134
+0    112   0   2  @PRINTF_U_4800_31766_31767
+0     64   0   0  @const11153
+0     62   0   0  @const11161
+0     62   0   0  @const11169
+0    390   1  13  @PRINTF_L32D_4800_31766_31767FPFPF
+0     66   0   0  @const11192
+0     70   0   0  @const11199
+0     66   0   0  @const11206
+0    126   0   4  comprobar_temperatura
+0    536   2  12  dosificadores
+0     82   0   0  funcionaDepuradora
+0    626   2   1  main
+0     80   0   0  @const11250
+0     40   0   0  @const11256
+0     44   0   0  @goto11307
+
+ Segment   Used  Free
+---------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000B2   172  0  
+000B4-07FFE  16360  16228  
+

@@ -1,0 +1,41 @@
+[PROJECT]
+Target=piscina.HEX
+Development_Mode=2
+Processor=0x4520
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\piscina.c
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[piscina.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=E:\Jose\DOCUME~1\Teleco\2010-2~1\SED\Proyecto\Piscina\piscina.c
+
+[Windows]
+0=0000 E:\Jose\DOCUME~1\Teleco\2010-2~1\SED\Proyecto\Piscina\piscina.c 0 0 796 451 3 0
+
+[Opened Files]
+1=E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\piscina.c
+2=
+3=E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\datos_funciones.c
+4=
+5=
+[Units]
+Count=1
+1=E:\Jose\Documents\Teleco\2010-2011\SED\Proyecto\Piscina\piscina.c (main)
